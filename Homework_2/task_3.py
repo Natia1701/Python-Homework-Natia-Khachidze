@@ -8,8 +8,7 @@ remainder_1 = number % prime_number_1
 remainder_2 = number % prime_number_2
 remainder_3 = number % prime_number_3
 remainder_4 = number % prime_number_4
-
-                                                                                                     # martivi gamyofi aris 2, 3, 5 an 7.
+                                                                                                    # martivi gamyofi aris 2, 3, 5 an 7.
 if remainder_1 == 0 :
     if remainder_2 == 0 :
         print ("prime factors of the number are " +str(prime_number_1), str(prime_number_2)+ ".")     #martivi gamyofi 2 da 3-ia
