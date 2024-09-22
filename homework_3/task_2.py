@@ -6,5 +6,5 @@ number = random.uniform(
     )
 print(number)
 
-round = round (number, 1)
+round = round(number, 1)
 print(round)
