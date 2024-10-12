@@ -2,6 +2,7 @@ import random
 import math 
 
 number = int(input("please enter positive integer less then 30: "))
+
 if number > 0 and number < 30 :
     maximum_value = 0
     for n in range(number) :
