@@ -13,7 +13,5 @@ if number > 0 and number < 30 :
 else :
     print("please enter positive integer less then 30")
 
-
-
    
 
