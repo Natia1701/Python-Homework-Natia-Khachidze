@@ -1,5 +1,3 @@
-
-
 n = int(input('Enter a natural number below 50: '))
 
 if not 0 < n < 50:
