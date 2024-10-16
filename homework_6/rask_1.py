@@ -14,3 +14,4 @@ while i < 10 :
         print("your number is high")
     i+=1
 print("Computer is winner!")
+break
