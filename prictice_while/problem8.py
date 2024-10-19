@@ -1,3 +1,4 @@
+#0-დან 10-მდე რიცხვების დათვლა ორი სხვადასხვა გზით( for and while)
 from random import randint
 number = randint(0,1)
 print(number)

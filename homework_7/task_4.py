@@ -1,4 +1,4 @@
-# Define the keyboard mapping
+# დავიხმარე AI, decode იქნება keyboard_mapping-ში სიმბოლოები პირიქით
 keyboard_mapping = {
     'q': ['w'],
     'w': ['e'],
@@ -40,8 +40,9 @@ def neighbor_encode(text):
             encoded.append(char)
     return ''.join(encoded)
 
-input_text =input("your word") 
+input_text =input("your word- ") 
 encoded_text = neighbor_encode(input_text)
 print(encoded_text) 
+
 
 

@@ -1,4 +1,4 @@
-number = input("please enter positive number which is les than 10 000. - ")
+number = input("please enter positive number which is less than 10 000. - ")
 
 number_of_digits = len(number)
 print("number of digits are ", len(number))
