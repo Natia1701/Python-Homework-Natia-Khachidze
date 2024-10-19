@@ -1,9 +1,22 @@
-number = int(input("please write number below 10. - "))
+n = int(input('Enter a natural number below 10: '))
 
-i = number + 1
-while i > number:
-    print (i-number, end=" ")
-    i+=1
-    if i > 2* number:
-        break
-    
+if not 0 < n < 10:
+    print('Entered number does not meet the requirement.')
+exit(1)
+
+i = 0
+while i <= n:
+    i += 1
+    j = 1
+    while j < i:
+        print(j, end=' ')
+        j += 1
+    print()
+
+    while i > 2:
+        i -= 1
+        j = 1
+        while j < i:
+            print(j, end=' ')
+            j += 1
+        print()

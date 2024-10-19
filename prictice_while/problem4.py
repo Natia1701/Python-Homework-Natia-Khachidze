@@ -1,3 +1,4 @@
+#ბეჭდავს შეყვანილს სიტყვას რენდომად შერჩეული რიცხვჯერ
 from random import randint
 word = input("please type your word - ")
 number = randint(0,10)
