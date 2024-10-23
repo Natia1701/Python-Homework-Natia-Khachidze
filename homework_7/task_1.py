@@ -1,6 +1,6 @@
 word = input("please write your word(words) - ")
 i = 0
-while i in range(0,len(word)):
+while i < len(word):
     if word[i] == "e":
         print("", end="")
     else:
