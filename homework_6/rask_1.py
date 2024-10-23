@@ -8,9 +8,11 @@ while i < 10 :
     costumer_number = int(input("please write your number between 0 and 100 - "))
     if costumer_number == computer_number:
         print("You are winner!")
+    break
     elif costumer_number < computer_number:
         print("your number is low")
     else:
         print("your number is high")
     i+=1
 print("Computer is winner!")
+
