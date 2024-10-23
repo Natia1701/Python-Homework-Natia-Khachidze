@@ -1,3 +1,4 @@
+#ორ შემთხვევით რიცხვებს შორის არსებული რიცხვების ჯამის, არჩეული რიცხვების ჩათვლით
 from random import randint
 number_1 = randint(0,10)
 number_2 = randint(0,10)
